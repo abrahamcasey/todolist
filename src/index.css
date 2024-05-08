@@ -107,3 +107,20 @@ color: hsla(0, 100%, 38%, 1);
     .List{
       color: hsla(227, 100%, 25%, 1);
     }
+
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem; 
+      }
+      button {
+        font-size: 1.2rem; 
+        padding: 8px 12px; 
+      }
+      input[type="text"] {
+        font-size: 1.2rem; 
+        padding: 8px; 
+      }
+      li {
+        font-size: 1.4rem; 
+      }
+    }
