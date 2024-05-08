@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+background-color:  hsl(0 ,0%, 12%) ;
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.to-do-list{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin-top: 100px;
+
+
 }
+
+h1{
+font-size: 4rem;
+color: azure;
+
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+background-color: hsla(227, 100%, 25%, 1);
+margin-left: 5px;
+
+}
+
+.add-button:hover{
+  background-color: hsla(227, 100%, 15%, 1);
+}
+
+.delete-button{
+  background-color: hsla(135, 100%, 28%, 1);
+  
+  }
+  
+  .delete-button:hover{
+    background-color: hsla(135, 100%, 18%, 1);
+  }
+
+  .move-button{
+    background-color: hsla(0, 100%, 38%, 1)
+    
+    }
+    
+    .move-button:hover{
+      background-color: hsla(0, 100%, 28%, 1)
+    }
+
+    input[type="text"]{
+      font-size:1.6rem;
+      padding: 10px;
+      border:  2px solid hsla(0,0%,80%,0.5);
+      border-radius: 15px;
+
+    }
+
+    ol{
+padding: 0;
+
+
+    }
+
+    li{
+font-size: 2rem;
+font-weight: bold;
+padding: 15px;
+background-color: hsl(0 ,0%, 97%);
+margin-bottom: 10px;
+border: solid 3px hsla(0 ,0% , 85% , 0.75);
+border-radius: 15px;
+display: flex;
+align-items: center;
+    }
+
+
+    .text{
+      flex: 1;
+    }
+
+    .delete-button , .move-button{
+      padding: 8px 12px;
+      font-size: 1.4rem;
+      margin-left: 10px;
+    }
+
+    .To{
+color: hsla(0, 100%, 38%, 1);
+    }
+
+    .Do{
+      color:  hsla(135, 100%, 28%, 1);
+    }
+
+    .List{
+      color: hsla(227, 100%, 25%, 1);
+    }
